@@ -1,14 +1,10 @@
-# Leap Year Checker (Python)
+"""Karkausvuositarkistin / Skottårskontroll / Leap Year Checker
 
-# Task: Write a Python program that determines if a given year is a leap year.
+Katso tehtävänanto README-tiedostosta. / Se uppgiften i README-filen. / See the task in README.md.
+"""
 
 year = int(input().strip())
 
-if year % 400 == 0:
-    print("Leap year")
-elif year % 100 == 0:
-    print("Not a leap year")
-elif year % 4 == 0:
-    print("Leap year")
-else:
-    print("Not a leap year")
+# TODO: tarkista säännöt oikeassa järjestyksessä (400, 100, 4)
+# TODO: kontrollera reglerna i rätt ordning (400, 100, 4)
+# TODO: check the rules in the right order (400, 100, 4)
